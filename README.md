@@ -119,25 +119,3 @@ MIT License — free to use, modify, and distribute.
 👤 Author
 NuralCraft
 Web • Cloud • DevOps • Automation
-
-⭐ If you find this project useful, consider starring the repository.
-
-yaml
-Copy code
-
----
-
-## ✅ You’re all set
-This README is:
-- ✔ GitHub-friendly  
-- ✔ Professional  
-- ✔ Clean & simple  
-- ✔ Portfolio-ready  
-
-If you want next:
-- `LICENSE.md`
-- GitHub repo description & tags
-- Custom domain setup
-- AWS / Vercel deployment guide
-
-Just tell me 👍
