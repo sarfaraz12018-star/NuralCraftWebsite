@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>NuralCraft – Tech Startup</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="NuralCraft is a tech startup building scalable web, cloud, and automation platforms.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav">
+  <div class="nav-inner">
+    <div class="logo">NuralCraft</div>
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+    <ul id="menu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#product">Product</a></li>
+      <li><a href="#traction">Traction</a></li>
+      <li><a href="#roadmap">Roadmap</a></li>
+      <li><a href="#team">Team</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <div class="container">
+    <h1>Build. Scale. Automate.</h1>
+    <p>The engineering platform for modern startups</p>
+    <button onclick="goTo('contact')">Request Demo</button>
+  </div>
+</section>
+
+<!-- PRODUCT -->
+<section id="product" class="section">
+  <div class="container">
+    <h2>What We Build</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Web Platform</h3>
+        <p>High-performance frontend & backend systems.</p>
+      </div>
+      <div class="card">
+        <h3>Cloud & DevOps</h3>
+        <p>CI/CD pipelines, Docker, Kubernetes & IaC.</p>
+      </div>
+      <div class="card">
+        <h3>Automation Engine</h3>
+        <p>Reduce operational overhead with automation.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TRACTION -->
+<section id="traction" class="section dark">
+  <div class="container">
+    <h2>Early Traction</h2>
+    <div class="stats">
+      <div><span class="counter" data-target="50">0</span><p>Projects</p></div>
+      <div><span class="counter" data-target="12">0</span><p>Customers</p></div>
+      <div><span class="counter" data-target="99">0</span><p>Uptime %</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ROADMAP -->
+<section id="roadmap" class="section">
+  <div class="container">
+    <h2>Roadmap</h2>
+    <div class="grid">
+      <div class="card">Q1 – MVP Launch</div>
+      <div class="card">Q2 – Early Customers</div>
+      <div class="card">Q3 – Automation Scale</div>
+      <div class="card">Q4 – Enterprise Features</div>
+    </div>
+  </div>
+</section>
+
+<!-- TEAM -->
+<section id="team" class="section">
+  <div class="container">
+    <h2>Our Team</h2>
+    <div class="team">
+      <div class="member">
+        <img src="https://via.placeholder.com/160" alt="Founder">
+        <h4>Founder</h4>
+        <p>Cloud & DevOps</p>
+      </div>
+      <div class="member">
+        <img src="https://via.placeholder.com/160" alt="Product Lead">
+        <h4>Product Lead</h4>
+        <p>UX & Platform</p>
+      </div>
+      <div class="member">
+        <img src="https://via.placeholder.com/160" alt="Engineering Lead">
+        <h4>Engineering Lead</h4>
+        <p>Backend & APIs</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section id="pricing" class="section light">
+  <div class="container">
+    <h2>Pricing</h2>
+    <div class="grid">
+      <div class="card"><strong>Starter</strong><br>Free</div>
+      <div class="card"><strong>Growth</strong><br>$49 / month</div>
+      <div class="card"><strong>Enterprise</strong><br>Custom</div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section dark">
+  <div class="container">
+    <h2>Talk to Us</h2>
+    <form
+  action="https://formspree.io/f/xojvpjjj"
+  method="POST"
+  id="contactForm"
+>
+  <input type="text" name="name" placeholder="Name" required>
+  <input type="email" name="email" placeholder="Email" required>
+  <textarea name="message" placeholder="Message" required></textarea>
+
+  <!-- Honeypot spam protection -->
+  <input type="text" name="_gotcha" style="display:none">
+
+  <button type="submit">Send</button>
+
+  <!-- Success message -->
+  <p id="success" hidden>✅ Thanks! We’ll contact you shortly.</p>
+</form>
+
+  </div>
+</section>
+
+<footer>© 2026 NuralCraft</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
